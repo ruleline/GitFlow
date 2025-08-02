@@ -18,6 +18,7 @@ int main(void)
         static volatile int status;
 
         printf("Hello, World!\n");
+        printf("this is alpha footprint.\n");
 
         for (; status == 0;) {
                 /* TODO */
