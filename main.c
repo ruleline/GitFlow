@@ -15,6 +15,12 @@
 
 int main(void)
 {
+        static volatile int status;
+
         printf("Hello, World!\n");
+
+        for (; status == 0;) {
+                /* TODO */
+        }
         return (0);
 }
